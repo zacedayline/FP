@@ -1,0 +1,60 @@
+/* 設定整頁背景顏色 */
+body {
+    background-color: #FFF9C4; /* 淺黃色背景 */
+    font-family: Arial, sans-serif;
+}
+
+/* 網頁最上方的按鈕樣式 */
+.header .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* 綠色背景 */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.header .button-link:hover {
+    background-color: #45a049;
+}
+
+/* 個人資料區塊樣式 */
+.profile {
+    margin: 50px;
+}
+
+.profile .student-id,
+.profile .name {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #D7CCC8; /* 淺棕色背景 */
+    color: #6D4C41; /* 咖啡色文字 */
+    border: 2px solid #6D4C41; /* 咖啡色框線 */
+    border-radius: 6px; /* 圓角半徑 */
+}
+
+/* 個人相片樣式 */
+.profile .photo img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid green; /* 綠色框線 */
+    border-radius: 10px; /* 圓角半徑 */
+}
+
+/* 網頁下方的按鈕樣式 */
+.footer .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5722; /* 橙色背景 */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.footer .button-link:hover {
+    background-color: #e64a19;
+}
