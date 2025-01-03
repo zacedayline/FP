@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人收藏</title>
+    <link rel="stylesheet" href="collect.css">
+</head>
+<body>
+
+    <!-- 網頁內容 -->
+    <div class="header">
+        <a href="index.html" class="button-link">回到個人首頁</a>
+    </div>
+
+    <!-- 收藏圖片區塊 -->
+    <div class="collection">
+        <img id="collection-image" src="image1.jpg" alt="收藏物品">
+        <div class="buttons">
+            <button onclick="changeImage(-1)">上一項收藏</button>
+            <button onclick="changeImage(1)">下一項收藏</button>
+        </div>
+    </div>
+
+    <script src="collect.js"></script>
+</body>
+</html>
